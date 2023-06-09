@@ -5,7 +5,7 @@ PartOf=graphical-session.target
 
 [Service]
 ExecStartPre=/usr/bin/systemctl --user import-environment SWAYSOCK
-ExecStart=/usr/bin/waybar -c /home/difrex/.config/sway/waybar/config -s /home/difrex/.config/sway/waybar/style.css
+ExecStart=/usr/bin/waybar -c /home/archie/.config/sway/waybar/config -s /home/archie/.config/sway/waybar/style.css
 Restart=always
 RestartSec=3
 

@@ -12,7 +12,7 @@ import (
 )
 
 const (
-	WALLPAPER_PATH string = `/home/difrex/.config/sway/wallpapers/Photo by SpaceX.jpg`
+	WALLPAPER_PATH string = `/home/archie/.config/sway/wallpapers/Photo by SpaceX.jpg`
 	BLURED_PATH    string = `/tmp/blured.jpg`
 )
 

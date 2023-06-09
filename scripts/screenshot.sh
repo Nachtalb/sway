@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SCREENS_DIR="${HOME}/Изображения/shots"
+SCREENS_DIR="${HOME}/Images/Screenshots"
 
 create_dir() {
     mkdir -p $SCREENS_DIR
@@ -14,9 +14,6 @@ case $1 in
     "a")
         create_dir
         grim "$SCREENS_DIR/$(date +%Y-%m-%d_%H-%M-%S).png"
-        ;;
-    "i")
-        /home/difrex/projects/imgur-screenshot/imgur-screenshot
         ;;
     *)
         exit 0

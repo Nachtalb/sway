@@ -1,7 +1,7 @@
 
 #!/bin/bash
 
-MAILDIR=/home/difrex/Mail; export MAILDIR
+MAILDIR=/home/archie/Mail; export MAILDIR
 COUNT="$(/usr/bin/mu find date:15m..now and flag:unread 2>/dev/null | wc -l)"
 
 # Write notify lock
